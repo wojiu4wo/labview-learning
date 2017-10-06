@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="68C572C345630A9ACCD304008A415122" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="GComponentFeatureSet" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/GComponent.xsd" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/Common/SystemModel" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Desktop SystemDesigner Plugin" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/Desktop/SystemModel" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="SystemDesigner Discovery" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/Discovery" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/SystemDiagram" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/SystemModel" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="SystemDesigner" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/SystemModelCore" Version="4.5.0.49154" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="VI SystemDesigner Plugin" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/SystemDesigner/Vi" Version="4.5.0.49152" />
+		<ApplicationVersionInfo Build="4.5.2.51305" Name="LabVIEW Communications System Design Suite" Version="2.0.1" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramDefinition,NationalInstruments.SystemDesigner.SystemDiagram.Moc,EmbeddedReference" Id="3" ModelDefinitionType="NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramDefinition" Name="the\ packet\ header\.lvproject">
+			<SystemDiagram Id="4" SystemDiagramVersion="75" xmlns="http://www.ni.com/SystemDesigner/SystemDiagram">
+				<EnvoyFacadeManager Id="5" xmlns="http://www.ni.com/SystemDesigner/EnvoyManagement">
+					<MappingManager Id="6" xmlns="http://www.ni.com/SystemDesigner/SystemModelCore">
+						<Instance Id="11" Source="{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop" p9:Process.DiscoveryAddress="localhost:SystemController" p9:Process.DiscoveryUserAlias="ECENBGSW16104" p9:Process.FirmwareVersion="A07" p9:Process.HardwareAlias="ECENBGSW16104" p9:Process.IsSimulated="False" p9:Process.OperatingSystemDescription="Microsoft Windows 7 Enterprise  (Service Pack 1)" p9:Process.SerialNumber="1CB3J72" p9:Process.SupportsExternalCalibration="False" p9:Process.SupportsSelfCalibration="False" p9:Process.SystemUserComment="" p9:Process.VendorName="Dell Inc." p10:Process.ModelName="Precision M2800" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" p9:Process.AssociatedIdentifier="35" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/[{http://www.ni.com/SystemDesigner/Common/SystemModel}NetworkAdapter]NetworkAdapter" p9:Process.DiscoveryAddress="localhost:nisyscfg:eth11" p9:Process.HardwareAlias="Intel(R) Ethernet Connection I217-LM" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="27" Source="{http://www.ni.com/SystemDesigner/Common/SystemModel}NetworkAdapter">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Common/SystemModel}NetworkAdapter]NetworkAdapter" p9:Process.DiscoveryAddress="localhost:nisyscfg:eth14" p9:Process.HardwareAlias="Bluetooth Device (Personal Area Network)" p9:Process.NetworkConfig.SupportsConfiguration="False" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="31" Source="{http://www.ni.com/SystemDesigner/Common/SystemModel}NetworkAdapter">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Common/SystemModel}NetworkAdapter]NetworkAdapter" p9:Process.DiscoveryAddress="localhost:nisyscfg:wlan13" p9:Process.HardwareAlias="Intel(R) Centrino(R) Advanced-N 6235" p9:Process.NetworkConfig.Ipv4Address="10.202.115.190" p9:Process.NetworkConfig.Ipv4DnsServer="128.194.254.1" p9:Process.NetworkConfig.Ipv4Gateway="10.202.114.1" p9:Process.NetworkConfig.Ipv4SubnetMask="255.255.254.0" p9:Process.NetworkConfig.NetworkAdapterMode="32" p9:Process.NetworkConfig.SupportsConfiguration="False" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="230" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="the packet header.gvi" p9:Process.AssociatedIdentifier="228" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="236" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="the packet header_2.gvi" p9:Process.AssociatedIdentifier="234" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Superimposition Id="7" Name="Root Superimposition">
+							<Superimpose Source="11">
+								<Superimpose Parent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector" Source="27" />
+								<Superimpose Parent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector" Source="31" />
+								<Superimpose Parent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="230" />
+								<Superimpose Parent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="236" />
+							</Superimpose>
+						</Superimposition>
+					</MappingManager>
+				</EnvoyFacadeManager>
+				<SystemDiagramRootDiagram Id="9">
+					<SystemHardware Bounds="0 0 315 213" Facade="PartsView" HasLayoutManager="True" Id="48" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop">
+						<SystemHardwareGroupDiagram Bounds="0 62 315 133" Id="49">
+							<SystemHardware Bounds="27 0 274 112" Facade="PartsView" Id="50" SystemModelContent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost">
+								<SystemHardwareGroupDiagram Bounds="0 0 274 63" GroupName="Ports" Id="52">
+									<SystemHardware Bounds="6 17 262 23" Facade="PartsViewLeaf" Id="53" SystemModelContent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+									<SystemHardware Bounds="6 40 262 23" Facade="PartsViewLeaf" Id="55" SystemModelContent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbConnector]UsbConnector">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+								</SystemHardwareGroupDiagram>
+								<SystemHardwareGroupDiagram Bounds="0 63 274 38" GroupName="Software" Id="51" />
+								<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+								<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+							</SystemHardware>
+						</SystemHardwareGroupDiagram>
+						<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+						<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+						<MoveableCablingTerminal AssociatedSystemHardware="53" BackingPort="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/ExternalPort_EthernetConnector" DataType="@c7d549a5e7a94804b8ab36470d2c984e" Hotspot="2 90" Id="54" />
+						<MoveableCablingTerminal AssociatedSystemHardware="55" BackingPort="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbConnector]UsbConnector/ExternalPort_UsbConnector" DataType="@c7d549a5e7a94804b8ab36470d2c984e" Hotspot="2 113" Id="56" />
+					</SystemHardware>
+				</SystemDiagramRootDiagram>
+			</SystemDiagram>
+			<NameScopingEnvoy Bindings="Envoy,DefinitionReference,NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramTargetModel,SystemDiagramEnumerateTargetService,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy,ContentKind_{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Process.DesktopHost,InProcessNativeDesktopTarget,NativeTarget,ProcessBackedProjectServiceMetaFactory" Id="35" ModelDefinitionType="NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramTargetModel" Name="PC">
+				<SystemDiagramTarget xmlns="http://www.ni.com/SystemDesigner/SystemDiagram" />
+				<NameScopingEnvoy Bindings="NativeViLibBindingKeyword,Envoy,DefinitionReference,BuildSpecification,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="36" ModelDefinitionType="BuildSpecification" Name="Interactive">
+					<BuildSpecificationDefinition Id="37" TopLevelComponentRefId="47" xmlns="http://www.ni.com/GComponent.xsd">
+						<CompilerSymbolTable Id="38" xmlns="http://www.ni.com/PlatformFramework" />
+						<ComponentConfigurationReference AssociatedEnvoyId="44" ConfigName="Default" Id="47" />
+						<ComponentConfigurationReference AssociatedEnvoyId="69" ConfigName="Default" Id="72" />
+						<ComponentConfigurationReference AssociatedEnvoyId="74" ConfigName="Default" Id="77" />
+						<ComponentConfigurationReference AssociatedEnvoyId="79" ConfigName="Default" Id="82" />
+						<ComponentConfigurationReference AssociatedEnvoyId="84" ConfigName="Default" Id="87" />
+						<ComponentConfigurationReference AssociatedEnvoyId="89" ConfigName="Default" Id="92" />
+						<ComponentConfigurationReference AssociatedEnvoyId="94" ConfigName="Default" Id="97" />
+						<ComponentConfigurationReference AssociatedEnvoyId="99" ConfigName="Default" Id="102" />
+						<ComponentConfigurationReference AssociatedEnvoyId="104" ConfigName="Default" Id="107" />
+						<ComponentConfigurationReference AssociatedEnvoyId="109" ConfigName="Default" Id="112" />
+						<ComponentConfigurationReference AssociatedEnvoyId="114" ConfigName="Default" Id="117" />
+						<ComponentConfigurationReference AssociatedEnvoyId="119" ConfigName="Default" Id="122" />
+						<ComponentConfigurationReference AssociatedEnvoyId="124" ConfigName="Default" Id="127" />
+						<ComponentConfigurationReference AssociatedEnvoyId="129" ConfigName="Default" Id="132" />
+						<ComponentConfigurationReference AssociatedEnvoyId="134" ConfigName="Default" Id="137" />
+						<ComponentConfigurationReference AssociatedEnvoyId="139" ConfigName="Default" Id="142" />
+						<ComponentConfigurationReference AssociatedEnvoyId="144" ConfigName="Default" Id="147" />
+						<ComponentConfigurationReference AssociatedEnvoyId="149" ConfigName="Default" Id="152" />
+						<ComponentConfigurationReference AssociatedEnvoyId="154" ConfigName="Default" Id="157" />
+						<ComponentConfigurationReference AssociatedEnvoyId="159" ConfigName="Default" Id="162" />
+						<ComponentConfigurationReference AssociatedEnvoyId="164" ConfigName="Default" Id="167" />
+						<ComponentConfigurationReference AssociatedEnvoyId="169" ConfigName="Default" Id="172" />
+						<ComponentConfigurationReference AssociatedEnvoyId="174" ConfigName="Default" Id="177" />
+						<ComponentConfigurationReference AssociatedEnvoyId="179" ConfigName="Default" Id="182" />
+						<ComponentConfigurationReference AssociatedEnvoyId="184" ConfigName="Default" Id="187" />
+						<ComponentConfigurationReference AssociatedEnvoyId="189" ConfigName="Default" Id="192" />
+						<ComponentConfigurationReference AssociatedEnvoyId="194" ConfigName="Default" Id="197" />
+						<ComponentConfigurationReference AssociatedEnvoyId="199" ConfigName="Default" Id="202" />
+						<ComponentConfigurationReference AssociatedEnvoyId="204" ConfigName="Default" Id="207" />
+						<ComponentConfigurationReference AssociatedEnvoyId="209" ConfigName="Default" Id="212" />
+						<ComponentConfigurationReference AssociatedEnvoyId="214" ConfigName="Default" Id="217" />
+						<ComponentConfigurationReference AssociatedEnvoyId="219" ConfigName="Default" Id="222" />
+						<ComponentConfigurationReference AssociatedEnvoyId="224" ConfigName="Default" Id="227" />
+					</BuildSpecificationDefinition>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference" Id="44" ModelDefinitionType="SparseEnvoyManager" Name="Default\ Component" Reparentable="False">
+						<SparseEnvoyManager Id="45">
+							<SparseEnvoyManagerDependencySource Id="46" Target=":NullTarget:Default\ Component" />
+						</SparseEnvoyManager>
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="228" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="the\ packet\ header\.gvi" StoragePath="C:\Users\cps07\Documents\LabVIEW Projects\week 3\the packet header.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="234" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="the\ packet\ header_2\.gvi" StoragePath="the packet header_2.gvi" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.UserDefinedRefnums.UdrRepositoryManagerDefinition,EmbeddedReference" Id="61" ModelDefinitionType="NationalInstruments.LabVIEW.VI.UserDefinedRefnums.UdrRepositoryManagerDefinition" Name="udr\.lib" Reparentable="False">
+						<UDRRepositoryManagerDefinition Location="" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="62" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Fpga" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Fpga&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="63" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Common" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Common&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="64" ModelDefinitionType="RepositoryManagerDefinition" Name="instr\.lib" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\instr.lib&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="65" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Native" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Native&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="69" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Conditioning_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123994700594" Id="70">
+							<SparseEnvoyManagerDependencySource Id="71" Target=":NullTarget:AAL_Conditioning_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="74" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Filtering_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123994867500" Id="75">
+							<SparseEnvoyManagerDependencySource Id="76" Target=":NullTarget:AAL_Filtering_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="79" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Fitting_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123995284765" Id="80">
+							<SparseEnvoyManagerDependencySource Id="81" Target=":NullTarget:AAL_Fitting_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="84" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Generation_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123995476216" Id="85">
+							<SparseEnvoyManagerDependencySource Id="86" Target=":NullTarget:AAL_Generation_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="89" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Interpolation_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123995716757" Id="90">
+							<SparseEnvoyManagerDependencySource Id="91" Target=":NullTarget:AAL_Interpolation_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="94" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Linear_Algebra_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123995785483" Id="95">
+							<SparseEnvoyManagerDependencySource Id="96" Target=":NullTarget:AAL_Linear_Algebra_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="99" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Measurement_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123995839482" Id="100">
+							<SparseEnvoyManagerDependencySource Id="101" Target=":NullTarget:AAL_Measurement_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="104" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Operations_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123996865463" Id="105">
+							<SparseEnvoyManagerDependencySource Id="106" Target=":NullTarget:AAL_Operations_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="109" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Resampling_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123996988188" Id="110">
+							<SparseEnvoyManagerDependencySource Id="111" Target=":NullTarget:AAL_Resampling_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="114" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Statistics_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123997258183" Id="115">
+							<SparseEnvoyManagerDependencySource Id="116" Target=":NullTarget:AAL_Statistics_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="119" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Support_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123997596904" Id="120">
+							<SparseEnvoyManagerDependencySource Id="121" Target=":NullTarget:AAL_Support_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="124" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Transforms_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123997695084" Id="125">
+							<SparseEnvoyManagerDependencySource Id="126" Target=":NullTarget:AAL_Transforms_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="129" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Windows_Base\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123997773628" Id="130">
+							<SparseEnvoyManagerDependencySource Id="131" Target=":NullTarget:AAL_Windows_Base\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="134" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Conditioning\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123981078119" Id="135">
+							<SparseEnvoyManagerDependencySource Id="136" Target=":NullTarget:AAL_Conditioning\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="139" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Filtering\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123981549383" Id="140">
+							<SparseEnvoyManagerDependencySource Id="141" Target=":NullTarget:AAL_Filtering\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="144" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Fitting\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123984538964" Id="145">
+							<SparseEnvoyManagerDependencySource Id="146" Target=":NullTarget:AAL_Fitting\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="149" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Generation\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123985137862" Id="150">
+							<SparseEnvoyManagerDependencySource Id="151" Target=":NullTarget:AAL_Generation\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="154" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Geometry\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123985766214" Id="155">
+							<SparseEnvoyManagerDependencySource Id="156" Target=":NullTarget:AAL_Geometry\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="159" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Integral_Differentiation\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123986571290" Id="160">
+							<SparseEnvoyManagerDependencySource Id="161" Target=":NullTarget:AAL_Integral_Differentiation\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="164" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Interpolation\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123986679288" Id="165">
+							<SparseEnvoyManagerDependencySource Id="166" Target=":NullTarget:AAL_Interpolation\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="169" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Linear_Algebra\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123987454910" Id="170">
+							<SparseEnvoyManagerDependencySource Id="171" Target=":NullTarget:AAL_Linear_Algebra\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="174" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Matrix\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123989217241" Id="175">
+							<SparseEnvoyManagerDependencySource Id="176" Target=":NullTarget:AAL_Matrix\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="179" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Measurement\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123989531417" Id="180">
+							<SparseEnvoyManagerDependencySource Id="181" Target=":NullTarget:AAL_Measurement\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="184" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Operations\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123991293748" Id="185">
+							<SparseEnvoyManagerDependencySource Id="186" Target=":NullTarget:AAL_Operations\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="189" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Polynomial\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123991441018" Id="190">
+							<SparseEnvoyManagerDependencySource Id="191" Target=":NullTarget:AAL_Polynomial\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="194" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Probability\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123991922100" Id="195">
+							<SparseEnvoyManagerDependencySource Id="196" Target=":NullTarget:AAL_Probability\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="199" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Resampling\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123992015371" Id="200">
+							<SparseEnvoyManagerDependencySource Id="201" Target=":NullTarget:AAL_Resampling\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="204" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Special_Func\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123992589724" Id="205">
+							<SparseEnvoyManagerDependencySource Id="206" Target=":NullTarget:AAL_Special_Func\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="209" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Statistics\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123993335892" Id="210">
+							<SparseEnvoyManagerDependencySource Id="211" Target=":NullTarget:AAL_Statistics\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="214" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Support\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123993728612" Id="215">
+							<SparseEnvoyManagerDependencySource Id="216" Target=":NullTarget:AAL_Support\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="219" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Transforms\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123993939699" Id="220">
+							<SparseEnvoyManagerDependencySource Id="221" Target=":NullTarget:AAL_Transforms\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,EnvoyManager" Id="224" ModelDefinitionType="SparseEnvoyManager" Name="AAL_Windows\.gcomp" Reparentable="False">
+						<SparseEnvoyManager AssociatedLastWriteTime="131117123994190058" Id="225">
+							<SparseEnvoyManagerDependencySource Id="226" Target=":NullTarget:AAL_Windows\.gcomp" />
+						</SparseEnvoyManager>
+					</EmbeddedDefinitionReference>
+				</NameScopingEnvoy>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="57" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Fpga" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Fpga&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="58" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Common" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Common&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="59" ModelDefinitionType="RepositoryManagerDefinition" Name="instr\.lib" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\instr.lib&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="60" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Native" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Native&quot;" />
+				</EmbeddedDefinitionReference>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,NullTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="10" ModelDefinitionType="NullTarget" Name="NullTarget">
+			<NullTarget />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,ComponentDefinition,NationalInstruments.Component.Moc,EmbeddedReference" Id="39" ModelDefinitionType="ComponentDefinition" Name="Default\ Component">
+				<ComponentDefinition DefaultConfigurationName="Default" Id="40" xmlns="http://www.ni.com/GComponent.xsd">
+					<CompilerSymbolTable Id="41" xmlns="http://www.ni.com/PlatformFramework" />
+					<ComponentConfiguration Id="42" Name="Default">
+						<CompilerSymbolTable Id="43" xmlns="http://www.ni.com/PlatformFramework" />
+					</ComponentConfiguration>
+				</ComponentDefinition>
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="229" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="the\ packet\ header\.gvi" StoragePath="C:\Users\cps07\Documents\LabVIEW Projects\week 3\the packet header.gvi" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="235" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="the\ packet\ header_2\.gvi" StoragePath="the packet header_2.gvi" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageReferencesDefinition,EmbeddedReference" Id="66" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
+				<PackageReferencesDefinition xmlns="http://www.ni.com/GComponent.xsd" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="67" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Conditioning/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="73" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Filtering/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="78" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Fitting/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="83" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Generation/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="88" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Interpolation/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="93" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/LinearAlgebra/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="98" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Measurement/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="103" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Operations/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="108" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Resampling/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="113" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Statistics/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="118" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Support/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="123" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Transforms/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="128" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/AnalysisBase/Windows/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="133" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Conditioning/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="138" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Filtering/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="143" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Fitting/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="148" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Generation/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="153" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Geometry/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="158" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/IntegralDifferentiation/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="163" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Interpolation/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="168" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/LinearAlgebra/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="173" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Matrix/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="178" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Measurement/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="183" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Operations/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="188" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Polynomial/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="193" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Probability/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="198" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Resampling/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="203" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/SpecialFunc/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="208" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Statistics/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="213" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Support/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="218" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Transforms/1.0.0.0/src" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,HideInfFilesTree,FileReference,SourceFileReference,EnvoyManager" Id="223" ModelDefinitionType="PackageInterfaceDefinition" Name="src" StoragePath="nipm://nistore/NI/Analysis/Windows/1.0.0.0/src" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DataDepot,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="68" ModelDefinitionType="DataDepot" Name="DataDepot">
+			<DataDepot />
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="c7d549a5e7a94804b8ab36470d2c984e">
+			<Composite Id="1" Name="SystemDiagramCable" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

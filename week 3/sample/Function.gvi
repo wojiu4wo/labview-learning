@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="E62398AE2C35A90651AB78E5C4A64330" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Common Language Components" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/MocCommon" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PanelCommon" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
+		<ApplicationVersionInfo Build="4.5.2.51305" Name="LabVIEW Communications System Design Suite" Version="2.0.1" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Id="4" Left="[float]0" TemplateName="Gray" Top="[float]0">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Function" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+				<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]34" Id="9" Left="[float]0" Margin="[SMThickness]3,3,3,3" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]34" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="10" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="11" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Height="[float]1600" Id="12" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000" />
+		<BlockDiagram Id="13">
+			<BuildCluster Bounds="10 85 40 30" Id="19" Terminals="outCluster=155, c0t0v=124, c1t0v=37, c2t0v=38" VerticalChunkCount="3" />
+			<NodeLabel AttachedTo="68" Bounds="-119 95 59 14" Id="70" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Operand 1</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="74" Bounds="-119 120 59 14" Id="76" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Operand 2</p.Text>
+			</NodeLabel>
+			<Wire Id="37" Joints="N(68:Value) N(19:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="38" Joints="N(74:Value) h(5) v(-15) N(19:c2t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="-55 95 40 15" DataItem="66" Id="68" Label="70" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="-55 120 40 15" DataItem="72" Id="74" Label="76" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<Wire Id="124" Joints="N(217:Value) h(25) B(1) v(-55) N(196:L0) B(1) v(20) N(19:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+			<CaseStructure Bounds="245 45 240 195" DataType="@3ef3a67caccb4605a541a9be859ce14d" Default="151" Id="150" Selected="151" UserSelectorBounds="28 0 184 16.8">
+				<CaseStructure.Case Bounds="5 5 230 185" Id="151" Pattern="&quot;Max-Weight&quot;, Default">
+					<PropertyNode Bounds="20 35 100 50" HasErrorTerminals="False" Id="172" InstanceDataType="@bed59d1ad99e41df9f4409b38af828f0" ListViewAutoSize="False" Mode="InstanceProperties" Template="List">
+						<PropertyItemTerminal DataType="Double" Hotspot="100 15" Id="c0t0v" Path="Element 2" Usage="Optional" />
+						<PropertyItemTerminal DataType="Double" Hotspot="100 30" Id="c1t0v" Path="Element 3" Usage="Optional" />
+					</PropertyNode>
+					<Wire Id="173" Joints="N(158:151) N(172:instance in)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Multiply Bounds="145 45 30 30" Id="174" Terminals="o=177, c0t0v=175, c1t0v=176" />
+					<Wire Id="175" Joints="N(172:c0t0v) N(174:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="176" Joints="N(172:c1t0v) N(174:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="177" Joints="N(174:o) N(165:151)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 230 185" Id="152" Pattern="&quot;Deficit Based&quot;">
+					<PropertyNode Bounds="30 35 105 50" HasErrorTerminals="False" Id="159" InstanceDataType="@bed59d1ad99e41df9f4409b38af828f0" ListViewAutoSize="False" Mode="InstanceProperties" Template="List">
+						<PropertyItemTerminal DataType="Double" Hotspot="105 15" Id="c0t0v" Path="Element 2" Usage="Optional" />
+						<PropertyItemTerminal DataType="Double" Hotspot="105 30" Id="c1t0v" Path="Element 3" Usage="Optional" />
+					</PropertyNode>
+					<Wire Id="160" Joints="N(158:152) N(159:instance in)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Add Bounds="155 45 30 30" Id="161" Terminals="o=164, c0t0v=162, c1t0v=163" />
+					<Wire Id="162" Joints="N(159:c0t0v) N(161:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="163" Joints="N(159:c1t0v) N(161:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="164" Joints="N(161:o) N(165:152)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Selector Bounds="-4 50 13 10" Docking="Left" Id="153" Terminals="150=156, 151, 152" />
+				<CaseStructure.Tunnel Bounds="-4 40 13 10" Docking="Left" Id="158" Terminals="150=157, 151=173, 152=160" />
+				<CaseStructure.Tunnel Bounds="231 60 13 10" Docking="Right" Id="165" Terminals="150=171, 151=177, 152=164" />
+			</CaseStructure>
+			<PropertyNode Bounds="75 85 100 35" HasErrorTerminals="False" Id="154" InstanceDataType="@bed59d1ad99e41df9f4409b38af828f0" ListViewAutoSize="False" Mode="InstanceProperties" Template="List">
+				<PropertyItemTerminal DataType="@3ef3a67caccb4605a541a9be859ce14d" Hotspot="100 15" Id="c0t0v" Path="Element 1" Usage="Optional" />
+			</PropertyNode>
+			<Wire Id="155" Joints="N(19:outCluster) N(154:instance in)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="156" Joints="N(154:c0t0v) N(153:150)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="157" Joints="N(154:instance out) N(158:150)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="505 105 40 15" DataItem="166" Id="168" Label="170" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="168" Bounds="550 105 46 14" Id="170" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Numeric</p.Text>
+			</NodeLabel>
+			<Wire Id="171" Joints="N(165:150) N(168:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="90 10 40 40" DomainName="NI.MocCommon" Id="196" Target="Max\ Weight\ Check\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Policy" />
+						<Parameter Id="R0" Desc="Is it Max Weight?" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@3ef3a67caccb4605a541a9be859ce14d" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<DataAccessor Bounds="235 10 40 15" DataItem="197" Id="200" Label="201" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="200" Bounds="280 10 97 14" Id="201" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Is it Max Weight?</p.Text>
+			</NodeLabel>
+			<Wire Id="202" Joints="N(196:R0) N(200:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="-59.9999924 65 40 15" DataItem="215" Id="217" Label="219" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@3ef3a67caccb4605a541a9be859ce14d" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="217" Bounds="-97 65 32 14" Id="219" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Policy</p.Text>
+			</NodeLabel>
+		</BlockDiagram>
+		<CPFrontPanel Height="[float]1600" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
+			<NumericText BaseName="[string]Numeric" Height="[float]22" Id="69" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]71" Left="[float]172" MinHeight="[float]22" Top="[float]133" Value="{DataItemBinding Id=66}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="71" LabelOwner="[UIModel]69" Left="[float]172" Text="[string]Operand 1" Top="[float]110" Width="[float]57" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]22" Id="75" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]96" Left="[float]172" MinHeight="[float]22" Top="[float]183" Value="{DataItemBinding Id=72}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="96" LabelOwner="[UIModel]75" Left="[float]172" Text="[string]Operand 2" Top="[float]160" Width="[float]57" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]22" Id="169" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]178" Left="[float]354" MinHeight="[float]22" Top="[float]87" Value="{DataItemBinding Id=166}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="178" LabelOwner="[UIModel]169" Left="[float]354" Text="[string]Numeric" Top="[float]64" Width="[float]46" xmlns="http://www.ni.com/PanelCommon" />
+			<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]30" Id="198" IsReadOnly="[bool]True" Label="[UIModel]203" Left="[float]354" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Square" Top="[float]151" TrueContent="[string]On" Value="{DataItemBinding Id=197}" Width="[float]30" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="203" LabelOwner="[UIModel]198" Left="[float]354" Text="[string]Is it Max Weight?" Top="[float]128" Width="[float]92" xmlns="http://www.ni.com/PanelCommon" />
+			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]22" Id="221" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" IsTypeAheadEnabled="[bool]True" Label="[UIModel]222" Left="[float]139" Top="[float]60" Value="{DataItemBinding Id=215}" ValueType="[Type]UInt8" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]90" p4:ControlDefinitionChecksum="vncz4XTLCDkCk14FvdOIOA==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Policy\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<EnumSelectorInfo DisplayValue="[string]Max-Weight" Value="[byte]0" ValueType="[Type]UInt8" />
+				<EnumSelectorInfo DisplayValue="[string]Deficit Based" Value="[byte]1" ValueType="[Type]UInt8" />
+				<EnumSelectorInfo DisplayValue="[string]Policy 3" Value="[byte]2" ValueType="[Type]UInt8" />
+				<EnumSelectorInfo DisplayValue="[string]Policy 4" IsEnabled="[bool]True" Value="[byte]3" ValueType="[Type]UInt8" />
+				<EnumSelectorInfo DisplayValue="[string]Policy 5" IsEnabled="[bool]True" Value="[byte]4" ValueType="[Type]UInt8" />
+				<EnumSelectorInfo DisplayValue="[string]Policy 6" IsEnabled="[bool]True" Value="[byte]5" ValueType="[Type]UInt8" />
+			</EnumSelector>
+			<Label Height="[float]16" Id="222" LabelOwner="[UIModel]221" Left="[float]139" Text="[string]Policy" Top="[float]37" Width="[float]31" xmlns="http://www.ni.com/PanelCommon" />
+		</CPFrontPanel>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="66" Name="Operand 1" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="72" Name="Operand 2" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="166" Name="Numeric" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="197" Name="Is it Max Weight?" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="@3ef3a67caccb4605a541a9be859ce14d" Id="215" Name="Policy" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>1</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Policy\.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<IconTable xmlns="http://www.ni.com/PlatformFramework">
+			<p.IconModel Target="Max\ Weight\ Check\.gvi">
+				<MergeScript>
+					<MergeItem Path="." IsPrimary="True">
+						<Icon ListViewIconCrop="0 0 40 40">
+							<IconPanel Height="[float]40" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Left="[float]0" TemplateName="Gray" Top="[float]0">
+									<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+									<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+									<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Max Weight Check" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+										<FontSetting FontFamily="Verdana" FontSize="6.75" />
+									</FileNameText>
+								</IconTemplate>
+								<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]34" Left="[float]0" Margin="[SMThickness]3,3,3,3" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]34" />
+							</IconPanel>
+						</Icon>
+					</MergeItem>
+				</MergeScript>
+			</p.IconModel>
+		</IconTable>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="3ef3a67caccb4605a541a9be859ce14d">
+			<Typedef TypedefName="Policy.gtype" UnderlyingType="@1e3b2fcc3e8c4db09a9f289557c47f7b" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="bed59d1ad99e41df9f4409b38af828f0">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Element 1">
+						<DataType>
+							<Typedef TypedefName="Policy.gtype" UnderlyingType="@1e3b2fcc3e8c4db09a9f289557c47f7b" />
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="Element 2" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Element 3" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1e3b2fcc3e8c4db09a9f289557c47f7b">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Max-Weight" />
+					<EnumerationMember Value="1" Name="Deficit Based" />
+					<EnumerationMember Value="2" Name="Policy 3" />
+					<EnumerationMember Value="3" Name="Policy 4" />
+					<EnumerationMember Value="4" Name="Policy 5" />
+					<EnumerationMember Value="5" Name="Policy 6" />
+				</Members>
+				<DataType>
+					<UInt8 />
+				</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
