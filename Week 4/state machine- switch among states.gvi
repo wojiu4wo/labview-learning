@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F5D3FEB792CBB729465CAA620129C425" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Common Language Components" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/MocCommon" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PanelCommon" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
+		<ApplicationVersionInfo Build="4.5.2.51305" Name="LabVIEW Communications System Design Suite" Version="2.0.1" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Id="4" Left="[float]0" TemplateName="Gray" Top="[float]0">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Function" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+				<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]34" Id="9" Left="[float]0" Margin="[SMThickness]3,3,3,3" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]34" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="10" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="11" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="12" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" />
+		<BlockDiagram Id="13">
+			<Comment Bounds="180 35 158.4 15.2" Id="16" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>"create the state machine "</p.Text>
+			</Comment>
+			<WhileLoop Bounds="145 100 847 495" DiagramId="18" Id="17">
+				<LoopIteration Bounds="5 465 15 15" Id="19" />
+				<LoopCondition Bounds="725 465 15 15" Id="20" />
+				<CaseStructure Bounds="29 85 641 300" DataType="@dd32093e6494431aafef038b486fde42" Default="22" Id="21" Selected="22" UserSelectorBounds="242.4 0 156 16.8">
+					<CaseStructure.Case Bounds="5 5 631 290" Id="22" Pattern="&quot;state 0&quot;, Default">
+						<Select Bounds="281 210 40 40" Id="52" />
+						<Wire Id="53" Joints="N(24:22) N(52:f)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Comment Bounds="311 250 119.200012 15.2000122" Id="54" xmlns="http://www.ni.com/MocCommon">
+							<p.Text>two case structure</p.Text>
+						</Comment>
+						<DataAccessor Bounds="191 225 40 15" DataItem="63" Id="55" Label="61" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<Wire Id="56" Joints="N(55:Value) N(52:s)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Literal Bounds="146 185 93.41333 15" DataType="@dd32093e6494431aafef038b486fde42" Facade="NationalInstruments.MocCommon.SourceModel.IEnumBehavior" Id="57" Label="62" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>1</p.Data>
+							<EnumBehavior Id="58" />
+						</Literal>
+						<Wire Id="59" Joints="N(57:Out) h(36.5899963) v(25) N(52:t)" xmlns="http://www.ni.com/PlatformFramework" />
+						<NodeLabel AttachedTo="55" Bounds="136 225 50 14" Id="61" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>to state1</p.Text>
+						</NodeLabel>
+						<NodeLabel AttachedTo="57" Bounds="146 185 0 0" Id="62" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>Enum</p.Text>
+						</NodeLabel>
+						<Wire Id="97" Joints="N(52:s? t:f) N(49:22)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Case Bounds="5 5 631 290" Id="23" Pattern="&quot;state 1&quot;">
+						<Select Bounds="276 210 40 40" Id="36" />
+						<Wire Id="37" Joints="N(24:23) N(36:f)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Comment Bounds="306 250 119.2 15.2" Id="38" xmlns="http://www.ni.com/MocCommon">
+							<p.Text>two case structure</p.Text>
+						</Comment>
+						<DataAccessor Bounds="186 225 40 15" DataItem="39" Id="40" Label="42" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<Wire Id="43" Joints="N(40:Value) N(36:s)" xmlns="http://www.ni.com/PlatformFramework" />
+						<NodeLabel AttachedTo="40" Bounds="127 225 54 14" Id="42" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>to state 2</p.Text>
+						</NodeLabel>
+						<Literal Bounds="141 185 93.41333 15" DataType="@dd32093e6494431aafef038b486fde42" Facade="NationalInstruments.MocCommon.SourceModel.IEnumBehavior" Id="44" Label="46" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>2</p.Data>
+							<EnumBehavior Id="45" />
+						</Literal>
+						<NodeLabel AttachedTo="44" Bounds="141 185 0 0" Id="46" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>Enum</p.Text>
+						</NodeLabel>
+						<Wire Id="47" Joints="N(44:Out) h(36.5899963) v(25) N(36:t)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="48" Joints="N(36:s? t:f) N(49:23)" xmlns="http://www.ni.com/PlatformFramework" />
+					</CaseStructure.Case>
+					<CaseStructure.Case Bounds="5 5 631 290" Id="65" Pattern="&quot;state 2&quot;">
+						<Select Bounds="266 195 40 40" Id="67" />
+						<Wire Id="68" Joints="N(24:65) h(5) v(-15) N(67:f)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Comment Bounds="296 235 119.200012 15.2000122" Id="69" xmlns="http://www.ni.com/MocCommon">
+							<p.Text>two case structure</p.Text>
+						</Comment>
+						<DataAccessor Bounds="176 210 40 15" DataItem="78" Id="70" Label="76" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<Wire Id="71" Joints="N(70:Value) N(67:s)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Literal Bounds="131 170 93.41333 15" DataType="@dd32093e6494431aafef038b486fde42" Facade="NationalInstruments.MocCommon.SourceModel.IEnumBehavior" Id="72" Label="77" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>3</p.Data>
+							<EnumBehavior Id="73" />
+						</Literal>
+						<Wire Id="74" Joints="N(72:Out) h(36.5899963) v(25) N(67:t)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="75" Joints="N(67:s? t:f) h(311) v(15) N(49:65)" xmlns="http://www.ni.com/PlatformFramework" />
+						<NodeLabel AttachedTo="70" Bounds="117 210 54 14" Id="76" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>to state 3</p.Text>
+						</NodeLabel>
+						<NodeLabel AttachedTo="72" Bounds="131 170 0 0" Id="77" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>Enum</p.Text>
+						</NodeLabel>
+					</CaseStructure.Case>
+					<CaseStructure.Case Bounds="5 5 631 290" Id="66" Pattern="&quot;state 3&quot;">
+						<Select Bounds="246 215 40 40" Id="80" />
+						<Wire Id="81" Joints="N(24:66) h(42) v(5) N(80:f)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Comment Bounds="276 245 119.200012 15.2000122" Id="82" xmlns="http://www.ni.com/MocCommon">
+							<p.Text>two case structure</p.Text>
+						</Comment>
+						<DataAccessor Bounds="156 220 40 15" DataItem="91" Id="83" Label="89" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<Wire Id="84" Joints="N(83:Value) h(40) v(10) N(80:s)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Literal Bounds="111 180 93.41333 15" DataType="@dd32093e6494431aafef038b486fde42" Facade="NationalInstruments.MocCommon.SourceModel.IEnumBehavior" Id="85" Label="90" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>0</p.Data>
+							<EnumBehavior Id="86" />
+						</Literal>
+						<Wire Id="87" Joints="N(85:Out) h(36.5899963) v(35) N(80:t)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="88" Joints="N(80:s? t:f) h(336) v(-5) N(49:66)" xmlns="http://www.ni.com/PlatformFramework" />
+						<NodeLabel AttachedTo="83" Bounds="97 220 54 14" Id="89" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>to state 4</p.Text>
+						</NodeLabel>
+						<NodeLabel AttachedTo="85" Bounds="111 180 0 0" Id="90" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>Enum</p.Text>
+						</NodeLabel>
+					</CaseStructure.Case>
+					<CaseStructure.Selector Bounds="-4 245 13 10" Docking="Left" Id="24" Terminals="21=96, 22=53, 23=37, 65=68, 66=81" />
+					<CaseStructure.Tunnel Bounds="632 230 13 10" Docking="Right" Id="49" Terminals="21=50, 22=97, 23=48, 65=75, 66=88" />
+				</CaseStructure>
+				<Wire Id="50" Joints="N(49:21) h(11) v(-75) N(114:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="96" Joints="N(34:i0) N(24:21)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="625 465 40 15" DataItem="98" Id="99" Label="101" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<Wire Id="102" Joints="N(99:Value) N(20:Input)" xmlns="http://www.ni.com/PlatformFramework" />
+				<NodeLabel AttachedTo="99" Bounds="550 465 70 14" Id="101" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>true for stop</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="710 240 40 15" DataItem="112" Id="114" Label="116" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="@dd32093e6494431aafef038b486fde42" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="114" Bounds="755 240 72 14" Id="116" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>current state</p.Text>
+				</NodeLabel>
+				<LoopTunnel Bounds="-4 335 13 10" Docking="Left" Id="34" Terminals="o0=33, i0=96" />
+			</WhileLoop>
+			<Literal Bounds="6.58667 435 93.41333 15" DataType="@dd32093e6494431aafef038b486fde42" Facade="NationalInstruments.MocCommon.SourceModel.IEnumBehavior" Id="29" Label="31" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0</p.Data>
+				<EnumBehavior Id="30" />
+			</Literal>
+			<NodeLabel AttachedTo="29" Bounds="6.58667 435 0 0" Id="31" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Enum</p.Text>
+			</NodeLabel>
+			<Comment Bounds="-5 395 150.4 15.2" Id="32" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>"enum constant for case "</p.Text>
+			</Comment>
+			<Wire Id="33" Joints="N(29:Out) N(34:o0)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<CPFrontPanel Height="[float]1600" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
+			<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]50" Id="41" Label="[UIModel]103" Left="[float]205" MinHeight="[float]36" MinWidth="[float]36" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" Top="[float]105" TrueContent="[string]On" Value="{DataItemBinding Id=39}" Width="[float]50" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="103" LabelOwner="[UIModel]41" Left="[float]205" Text="[string]to state 2" Top="[float]82" Width="[float]50" xmlns="http://www.ni.com/PanelCommon" />
+			<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]50" Id="64" Label="[UIModel]104" Left="[float]196" MinHeight="[float]36" MinWidth="[float]36" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" Top="[float]201" TrueContent="[string]On" Value="{DataItemBinding Id=63}" Width="[float]50" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="104" LabelOwner="[UIModel]64" Left="[float]196" Text="[string]to state1" Top="[float]178" Width="[float]47" xmlns="http://www.ni.com/PanelCommon" />
+			<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]50" Id="79" Label="[UIModel]105" Left="[float]196" MinHeight="[float]36" MinWidth="[float]36" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" Top="[float]310" TrueContent="[string]On" Value="{DataItemBinding Id=78}" Width="[float]50" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="105" LabelOwner="[UIModel]79" Left="[float]196" Text="[string]to state 3" Top="[float]287" Width="[float]50" xmlns="http://www.ni.com/PanelCommon" />
+			<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]50" Id="92" Label="[UIModel]106" Left="[float]196" MinHeight="[float]36" MinWidth="[float]36" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" Top="[float]427" TrueContent="[string]On" Value="{DataItemBinding Id=91}" Width="[float]50" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="106" LabelOwner="[UIModel]92" Left="[float]196" Text="[string]to state 4" Top="[float]404" Width="[float]50" xmlns="http://www.ni.com/PanelCommon" />
+			<Button BaseName="[string]Stop" Content="[string]Stop" Foreground="[SMColor]#ffff0000" Height="[float]30" Id="108" IncludeInCapture="[bool]False" IsMomentary="[bool]False" Label="[UIModel]111" Latch="[bool]True" Left="[float]175" MinHeight="[float]13" MinWidth="[float]13" Shape="[ButtonShape]Square" Top="[float]549" Value="{DataItemBinding Id=98}" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="111" LabelOwner="[UIModel]108" Left="[float]175" Text="[string]true for stop" Top="[float]526" Width="[float]67" xmlns="http://www.ni.com/PanelCommon" />
+			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]22" Id="115" InteractionMode="[SelectorInteractionModes]ReadOnly" IsTypeAheadEnabled="[bool]True" Label="[UIModel]118" Left="[float]487" Top="[float]267" Value="{DataItemBinding Id=112}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<EnumSelectorInfo DisplayValue="[string]state 0" Value="[ushort]0" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]state 1" Value="[ushort]1" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]state 2" Value="[ushort]2" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]state 3" Value="[ushort]3" ValueType="[Type]UInt16" />
+			</EnumSelector>
+			<Label Height="[float]16" Id="118" LabelOwner="[UIModel]115" Left="[float]487" Text="[string]current state" Top="[float]244" Width="[float]67" xmlns="http://www.ni.com/PanelCommon" />
+		</CPFrontPanel>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="39" Name="to state 2" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="63" Name="to state1" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="78" Name="to state 3" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="91" Name="to state 4" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="Boolean" Id="98" IsLatched="True" Name="true for stop" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="@dd32093e6494431aafef038b486fde42" Id="112" Name="current state" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="dd32093e6494431aafef038b486fde42">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="state 0" />
+					<EnumerationMember Value="1" Name="state 1" />
+					<EnumerationMember Value="2" Name="state 2" />
+					<EnumerationMember Value="3" Name="state 3" />
+				</Members>
+				<DataType>
+					<UInt16 />
+				</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
